@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VideoNotes</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>VideoNotes</h1>
+        <p>
+            Your saved videos
+        </p>
+    </header>
+
+    <main>
+
+        <div class="toolbar">
+            <div class="storage-actions">
+
+                <button id="import-button" class="storage-button" type="button">
+                    Import notes
+                </button>
+
+                <button id="export-button" class="storage-button" type="button">
+                    Export to JSON
+                </button>
+
+                <input id="import-file" type="file" accept=".json,application/json" hidden>
+
+            </div>
+            <input id="search" type="search" placeholder="Cerca video o note...">
+
+            <select id="sort">
+
+                <option value="date-desc">
+                    Latest
+                </option>
+
+                <option value="date-asc">
+                    Oldest
+                </option>
+
+                <option value="title-asc">
+                    Title [A-Z]
+                </option>
+
+                <option value="title-desc">
+                    Title [Z-A]
+                </option>
+
+            </select>
+
+        </div>
+
+        <section id="video-list">
+        </section>
+
+    </main>
+
+    <script type="module" src="./app.ts"></script>
+
+</body>
+
+</html>

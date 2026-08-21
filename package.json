@@ -1,0 +1,17 @@
+{
+    "name": "videonotes",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsc && vite build",
+        "dev": "vite",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.1.32",
+        "@types/node": "^26.2.0",
+        "typescript": "^5.9.2",
+        "vite": "^7.1.1"
+    }
+}
