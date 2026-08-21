@@ -61,13 +61,15 @@ For more details, see the [Privacy Policy](./privacy-policy.md).
 ## Project structure
 
 ```
-├── src/
-│   ├── background.ts     # Service worker
-│   ├── content/           # Content scripts (Instagram / YouTube)
-│   └── ui/                 # Dedicated notes interface
-├── welcome.html           # Post-install welcome page
-├── manifest.json
-└── privacy-policy.md
+├── public/              # Static assets (manifest.json, icons, etc.)
+└── src/
+    ├── app/              # Main dedicated interface for viewing/managing notes
+    ├── background/       # Background service worker
+    ├── content/          # Content scripts injected into Instagram/YouTube pages
+    │   └── assets/        # Assets used by content scripts
+    ├── models/           # Shared TypeScript types/interfaces
+    ├── storage/           # Wrapper around chrome.storage.local
+    └── welcome/           # Post-install welcome page
 ```
 
 ## Contributing
