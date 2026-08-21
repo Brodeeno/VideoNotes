@@ -80,10 +80,6 @@ If you find this extension useful, consider buying me a coffee ☕
 
 👉 [Support me on Ko-fi](https://ko-fi.com/brodeeno)
 
-## License
-
-*[Specify license here, e.g. MIT]*
-
 ## Privacy
 
 See the [Privacy Policy](./privacy-policy.md) for details on how data is handled.
