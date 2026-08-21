@@ -39,12 +39,6 @@ This extension is not directed at children and does not knowingly collect any in
 
 This privacy policy may be updated occasionally to reflect changes in the extension's functionality. Any changes will be posted on this page with an updated revision date.
 
-## Contact
-
-If you have any questions about this privacy policy, feel free to reach out:
-
-**Email:** [galuk787@gmail.com](mailto:galuk787@gmail.com)
-
 ---
 
 *This extension is provided free of charge. If you find it useful, contributions are welcome via [Ko-fi](https://ko-fi.com/brodeeno).*
